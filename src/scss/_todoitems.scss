@@ -1,0 +1,34 @@
+/** @format */
+
+.todos {
+  color: $very-dark-grayish-blue;
+
+  ul {
+    width: 540px;
+    margin: auto;
+    box-shadow: 4px 3px 15px 5px rgba(118, 118, 118, 0.15);
+
+    li {
+      margin-top: 20px;
+      width: 100%;
+      height: 65px;
+      padding: 25px;
+      display: flex;
+      background-color: #fff;
+      border-bottom: 1px solid hsla(233, 11%, 84%, 0.536);
+
+      &:first-child {
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+      }
+
+      input {
+        margin-right: 5px;
+      }
+
+      a {
+        margin-left: auto;
+      }
+    }
+  }
+}

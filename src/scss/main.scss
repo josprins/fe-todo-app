@@ -1,0 +1,51 @@
+/** @format */
+
+// Import Font Style
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+// Import Abstracts
+@import 'variables';
+@import 'search';
+@import 'todoitems';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  background: url('/src/img/bg-desktop-light.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: $very-light-grey;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: auto;
+  padding: 90px 0 0 0;
+  height: 275px;
+
+  ul {
+    width: 540px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      list-style: none;
+
+      a {
+        color: $very-light-grey;
+
+        i {
+          margin-top: 1px;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+// background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+//                   url("../../media/examples/lizard.png");

@@ -1,0 +1,101 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+/** @format */
+/** @format */
+.search {
+  width: 540px;
+  margin: auto;
+  margin-top: -125px;
+}
+
+.search input {
+  width: 100%;
+  max-width: 540px;
+  height: 65px;
+  border: none;
+  border-radius: 7px;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+/** @format */
+.todos {
+  color: #484b6a;
+}
+
+.todos ul {
+  width: 540px;
+  margin: auto;
+  -webkit-box-shadow: 4px 3px 15px 5px rgba(118, 118, 118, 0.15);
+          box-shadow: 4px 3px 15px 5px rgba(118, 118, 118, 0.15);
+}
+
+.todos ul li {
+  margin-top: 20px;
+  width: 100%;
+  height: 65px;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(210, 211, 219, 0.536);
+}
+
+.todos ul li:first-child {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.todos ul li input {
+  margin-right: 5px;
+}
+
+.todos ul li a {
+  margin-left: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  background: url("/src/img/bg-desktop-light.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #fafafa;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: auto;
+  padding: 90px 0 0 0;
+  height: 275px;
+}
+
+header ul {
+  width: 540px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  color: #fafafa;
+}
+
+header ul li a i {
+  margin-top: 1px;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */
